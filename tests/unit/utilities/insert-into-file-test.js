@@ -2,7 +2,7 @@
 
 const fs = require('fs-extra');
 const path = require('path');
-const temp = require('temp');
+const temp = require('nanotemp');
 const EOL = require('os').EOL;
 const insertIntoFile = require('../../../lib/utilities/insert-into-file');
 

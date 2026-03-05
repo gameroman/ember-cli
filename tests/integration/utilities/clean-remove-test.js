@@ -2,7 +2,7 @@
 
 const { expect } = require('chai');
 const cleanRemove = require('../../../lib/utilities/clean-remove');
-const temp = require('temp');
+const temp = require('nanotemp');
 const path = require('path');
 const fs = require('fs-extra');
 
